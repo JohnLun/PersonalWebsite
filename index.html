@@ -1,0 +1,409 @@
+<!-- Boiler Plate; info read by web browser-->
+<!DOCTYPE html>
+<html lang="en">
+<!-- Head links to css style sheets, stuff not used by humans-->
+    <head>
+        <link rel="stylesheet" href="index.css"> 
+        <link rel="javascript" href="index.js">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Jon's Experience</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    </head>
+    <body>
+        <div class="container">
+            <div class="row my-row">
+                <div class="col-2">
+                    Mission Statement
+                </div>
+                <div class="col-10">
+                    In short, I made this website to learn something new. Although crude, this
+                    <br>is my first project done alone and I'm very proud. You'll find some 
+                    <br>information about me - fun facts, courses, experience, and contact- 
+                    <br>as well as my desire to learn!
+                </div>
+            </div>
+            <div id="navbar">
+                <a href="#about" class="active" onclick="displayAboutMe(this)" id="about-tab">
+                    About Me
+                </a>
+                <a href="#course" onclick="displayCourse(this)" id="courses-tab">
+                    Courses
+                </a>
+                <a href="#experience" onclick="displayExperience(this)" id="experience-tab">
+                    Experience
+                </a>
+                <a href="#contact" onclick="displayContact(this)" id="contact-tab">
+                    Contact
+                </a>
+            </div>
+
+             <!-- About Me -->
+            <div id="about_me" display.style = "block">
+                <div class="row">
+                    <div class="col-4">
+                        <img src="https://sweethillwood.com/images/thumbs/0002223_wood-chess-board-black-walnut-and-curly-maple-2-inch-squares_550.jpeg" alt="chess board" style="width:256px; height:256px;">
+                    </div>
+                    <div class="col-8">
+                        With the resurgence in popularity of chess as well as the notion that it's cool to be good at chess, I've dusted off my old board and have begun playing once again.
+                        Within my friend group, I've even garnered the nickname "chess fiend" much to my dismay. I don't really know how I feel about my chess enthusiasm being mistaken for 
+                        an addiction. Regardless, the 10 minute online games available at chess.com have certainly saved me from my own boredom on multiple occasions.
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-8">
+                        I'm an avid typer and found that entering online typing competitions is a great way to pass the time (and distract me from actual work). I pride myself in being able to consistently
+                        type above 100 words per minute and find solace in the fact that I can impress any one of my friends just by typing a paragraph for them. What started as a seemingly meaningless lesson
+                        in my 9th grade english class, became a vital part in my daily routine. I would often find myself typing the url of my favorite
+                        typing website subconsiously whenever opening chrome. I might have a problem...
+                    </div>
+                    <div class="col-4">
+                        <img src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5709/5709661_sd.jpg;maxHeight=640;maxWidth=550" alt="keyboard" style="width:256px; height:256px">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-4">
+                        <img src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6483/6483101_sd.jpg;maxHeight=150;maxWidth=200" alt="xbox" style="width:256px; height:256px">
+                    </div>
+                    <div class="col-8">
+                        Despite how much I get teased for it, I play games on a mac. However, I always come out on top when faced with adversity. I enjoy playing overwatch, league of legends, and valorant
+                        as well as the occasional pokemon. I'm in the top 10% in each aforementioned game and will never shy away from some good old bragging towards my brother. Each game is largely team oriented
+                        and I found that the leadership and teamwork skills I learned carried over to the school environment. In virtually every school project, I ended up taking the reins and deligating
+                        tasks to fellow classmates. Both in game and in real life, it's just my mackbook and I against the world.
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-8">
+                        If you ever see me out in public, there's a good chance I'm wearing earbuds. I've been surrounded by music the majority of my life, thrusted into competitive piano at the age of 7.
+                        While I've since quit the competitive scene, listening to music has certainly provided an escape from stress and anxiety. I mainly listen to mid 2000s pop songs. The main reason is
+                        likely the nostalgic/up-beat tones of the music from that time. Outside of tha trend, I'll add any song I find good to my playlist, regardless of genre. 
+                    </div>
+                    <div class="col-4">
+                        <img src="https://ak1.ostkcdn.com/images/products/is/images/direct/862b2ebbb519657cab9f348398ca9944ada68d17/Apple-Earpods-3.5-mm-Adapter-with-Remote-and-Microphone-in-Bulk-Packaging-Refurbished.jpg" alt="width:256px; height:256px">
+                    </div>
+                </div>
+                
+            </div>
+
+
+            <!-- Courses -->
+            <div id="courses">
+                <!-- Ap Computer Science A -->
+                <div class="row my-row">
+                    <div class="col course-name">
+                        AP Computer Science A
+                    </div>
+                    <div class="col course-year">
+                        2018-2019
+                    </div>
+                    <button type="button" class="collapsible">
+                        What I learned
+                    </button>
+                    <div class="info">
+                        <p>
+                            Language: Java
+                            <br>Was exposed to the basics of object oriented programming and developed problem-solving skills.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- AICE Computer Science AS -->
+                <div class="row my-row">
+                    <div class="col course-name">
+                        AICE Computer Science AS
+                    </div>
+                    <div class="col course-year">
+                        2019-2020
+                    </div>
+                    <button type="button" class="collapsible">
+                        What I learned
+                    </button>
+                    <div class="info">
+                        <p>
+                            Language: Python
+                            <br>Introduced to discrete math: logic tables, pseudocode, and bit conversion.
+                            <br>Learned the bare bones of sql and queries. 
+                        </p>
+                    </div>
+                </div>
+                <!-- Programming Fundamentals 2 -->
+                <div class="row my-row">
+                    <div class="col course-name">
+                        Programming Fundamentals 2
+                    </div>
+                    <div class="col course-year">
+                        2020-2021
+                    </div>
+                    <button type="button" class="collapsible">
+                        What I learned
+                    </button>
+                    <div class="info">
+                        <p>
+                            Language: C++
+                            <br>Further refined object oriented programming skills.
+                            <br>Made a linked list from scratch, manipulated photos by reading and writing files using bit manipulation, and created minesweeper using SFML.
+                            <br>These projects exposed me to working with data structures, assets, libraries, and files.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Discrete Structures -->
+                <div class="row my-row">
+                    <div class="col course-name">
+                        Applications of Discrete Structures
+                    </div>
+                    <div class="col course-year">
+                        2020-2021
+                    </div>
+                    <button type="button" class="collapsible">
+                        What I learned
+                    </button>
+                    <div class="info">
+                        <p>
+                            Language: Pseudocode
+                            <br>Gained a deeper/more comprehensive understanding of discrete math.
+                            <br>Similar to my AICE Computer Science class, we went over more complex logic problems
+                            <br>and focused on probability. 
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Prof Comm -->
+                <div class="row my-row">
+                    <div class="col course-name">
+                        Professional Commnication for Engineers
+                    </div>
+                    <div class="col course-year">
+                        2020-2021
+                    </div>
+                    <button type="button" class="collapsible">
+                        What I learned
+                    </button>
+                    <div class="info">
+                        <p>
+                            Language: N/A
+                            <br>Gained greater insight into professional documents and how to properly format them.
+                            <br>Wrote various research papers that focused on failure analysis, problem solving, and source gathering. 
+                            <br>Certain papers required the collaboration of multiple team members that were each responsible for their own section.
+                            <br>I had to communicate with teammates through emails and memos that outlined the goals/deadlines I expected of the group.
+                            <br>This class was a great experience that mimicked that of a professional environment.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Experience -->
+            <div id="experience">
+                <div class="row">
+                    <div class="col course-name">
+                        <b>Weather Tracker</b>
+                    </div>
+                    <div class="col course-year">
+                        <b>Sep 2021</b>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        Frustrated with the lack of local opportunities due to the pandemic, I went to my Society of Software Developer's
+                        <br>club and proposed the idea of making a weather tracking app using a weather API. With only one taker, we went to
+                        <br>work immediately and made amazing progress in the few days we gave ourselves! Using JavaScript, HTML, CSS, and 
+                        <br>ReactJS, our Weather Tracker takes city name input and dispalays the temperature (including min and max) as well as
+                        <br>a neat icon to match the forcasted weather.
+                    </div>
+                    
+                </div>
+                <div class="row">
+                    <div class="col course-name">
+                        <b>Personal Website</b>
+                    </div>
+                    <div class="col course-year">
+                        <b>Jun 2021</b>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        Decided to do something with my summer and learn something new. I was always curious as to how websites
+                        <br>were made. At first, the task seemed pretty daunting, but after reading some tutorials the actual making
+                        <br>of the website became easier. I decided to use bootstrap because of its beginner-friendly formatting
+                        <br>that took away a lot of my frustrations. Overall, it's not the prettiest website, but I'm grateful
+                        <br>for the experience/lessons it provided me. 
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col course-name">
+                        <b>Swamphacks VII</b>
+                    </div>
+                    <div class="col course-year">
+                        <b>Jan 2021</b>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        Created a series of retro arcade games using Processing in java. I was tasked with recreating Pong as well
+                        <br>as aiding in the development of assets, such as the ships in Galaga. This was a great experience and
+                        <br>allowed me to get familiar with some of Java's libraries as well as how assets are used/implemented. 
+                        <br>Sadly, we didn't win an award, but we'll definitely improve for next SwampHacks. 
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+
+        <div id = "contact">
+            <div class="row">
+                <div class="col-2">
+                </div>
+                <div class="col-10">
+                    Email: Jlun@ufl.edu
+                </div>
+                
+            </div>
+            <div class="row">
+                <div class="col-2">
+                </div>
+                <div class="col-10">
+                    Phone #: (954)-319-6220
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-2"></div>
+                <div class="col-10">
+                    I'm free most times of the day. I check my email daily, and weekends is when it's best to call me!
+                </div>
+            </div>
+        </div>
+
+       
+        
+
+       
+
+        <!-- Collapsible -->
+        <script>
+            var coll = document.getElementsByClassName("collapsible");
+            var i;
+            
+            for (i = 0; i < coll.length; i++) {
+              coll[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                  content.style.display = "none";
+                } else {
+                  content.style.display = "block";
+                }
+              });
+            }
+        </script>
+
+        <!-- Navigation -->
+        <script>
+            function displayCourse(event) {
+                var x = document.getElementById("about_me");
+                var y = document.getElementById("courses");
+                var z = document.getElementById("experience");
+                var a = document.getElementById("contact");
+
+                x.style.display = "none";
+                y.style.display = "block";
+                z.style.display = "none";
+                a.style.display = "none";
+                
+                event.classList.add("active");
+                document.getElementById("about-tab").classList.remove("active");
+                document.getElementById("experience-tab").classList.remove("active");
+                document.getElementById("contact-tab").classList.remove("active");
+
+            }
+           
+        </script>
+
+        <script>
+            function displayAboutMe(event) {
+                var x = document.getElementById("about_me");
+                var y = document.getElementById("courses");
+                var z = document.getElementById("experience");
+                var a = document.getElementById("contact");
+
+                x.style.display = "block";
+                y.style.display = "none";
+                z.style.display = "none";
+                a.style.display = "none";
+
+                event.classList.add("active");
+
+                document.getElementById("courses-tab").classList.remove("active");
+                document.getElementById("experience-tab").classList.remove("active");
+                document.getElementById("contact-tab").classList.remove("active");
+            }
+            
+        </script>
+
+        <script>
+            function displayExperience(event) {
+                var x = document.getElementById("about_me");
+                var y = document.getElementById("courses");
+                var z = document.getElementById("experience");
+                var a = document.getElementById("contact")
+
+                x.style.display = "none";
+                y.style.display = "none";
+                z.style.display = "block";
+                a.style.display = "none";
+
+                event.classList.add("active");
+                document.getElementById("about-tab").classList.remove("active");
+                document.getElementById("courses-tab").classList.remove("active");
+                document.getElementById("contact-tab").classList.remove("active");
+            }
+        </script>
+        <script>
+            function displayContact(event) {
+                var x = document.getElementById("about_me");
+                var y = document.getElementById("courses");
+                var z = document.getElementById("experience");
+                var a = document.getElementById("contact")
+
+                x.style.display = "none";
+                y.style.display = "none";
+                z.style.display = "none";
+                a.style.display = "block";
+
+                event.classList.add("active");
+                document.getElementById("about-tab").classList.remove("active");
+                document.getElementById("courses-tab").classList.remove("active");
+                document.getElementById("experience-tab").classList.remove("active");
+            }
+        </script>
+
+        <!-- Sticky Navbar -->
+        <script>
+            window.onscroll = function() {myFunction()};
+
+            var navbar = document.getElementById("navbar");
+            var sticky = navbar.offsetTop;
+
+            function myFunction() {
+                if (window.pageYOffset >= sticky) {
+                    navbar.classList.add("sticky")
+                } else {
+                    navbar.classList.remove("sticky");
+                }
+            }
+        </script>
+
+        <!-- Change Color -->
+        <!-- <script type="text/javascript">
+            $("a").click(function() {
+                $("a").css("background-color","");
+                $(this).css("background-color","green");
+            });
+        </script> -->
+    </body>
+</html>
+
